@@ -15,7 +15,7 @@
 ## 1.配置数据库（需要300GB以上磁盘剩余空间）
 + 下载并安装SqlServer2008R2，配置好用户名以及登录密码，如果远程连接数据库的话，需配置数据库允许远程登录（SqlServer数据库配置请自行搜索教程）
 + 下载[数据库备份文件](https://pan.baidu.com/s/1bz36WurfQIuyBRykyqXBug)
-’‘’ 数据库文件SHA256
+``` 数据库文件SHA256
 名称: QQGroup.7z.001
 大小: 4290772992 字节 (4092 MiB)
 SHA256: F5E2C42140A892E14E56A0B1B839E36E80626B503547738817513513B957FA22
@@ -55,7 +55,7 @@ SHA256: C940F4ABB3BB776B323306D0324998E5ED653CD8FB049B47075B531B70AD1C6B
 名称: QQGroup.7z.010
 大小: 152463434 字节 (145 MiB)
 SHA256: 4DE4E3A0D44FDD4CE9D7EF15747C7516FDFBE10C96BEBDE1D5D98CE501BF1936
-‘’‘
+```
 + 解压下载的压缩包，得到数据库备份文件，恢复数据库备份文件到SqlServer（SqlServer恢复数据库恢复操作请自行搜索教程）
 
 ## 2.搭建服务端（需要支持Nodejs的操作系统，CPU1核以上剩余内存1GB以上）
