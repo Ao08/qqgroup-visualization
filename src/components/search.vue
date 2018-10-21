@@ -11,7 +11,7 @@
 </style>
 
 <template>
-    <el-input class="searchInput" :placeholder="autoPlaceholder" v-model="searchNum">
+    <el-input @keyup.enter.native="handleSearchClick" class="searchInput" :placeholder="autoPlaceholder" v-model="searchNum">
         <el-select v-model="searchType" slot="prepend">
             <el-option label="QQ关系图" value="qqgraph"></el-option>
             <el-option label="群关系图" value="groupgraph"></el-option>
